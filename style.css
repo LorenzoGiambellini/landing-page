@@ -28,10 +28,28 @@ ul{
     display: flex;
     flex-direction: column;
     border: 2px solid black;
-
+    flex-grow: 1;
 }
 
 .footer{
     border: 2px solid black;
 
+}
+
+.section-one{
+    flex-grow: 1;
+    border: 2px solid black;
+
+}
+.section-two{
+    flex-grow: 1;
+    border: 2px solid black;
+}
+.section-three{
+    flex-grow: 1;
+    border: 2px solid black;
+}
+.section-four{
+    flex-grow: 1;
+    border: 2px solid black;
 }
