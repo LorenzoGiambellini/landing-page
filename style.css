@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
@@ -7,10 +10,22 @@ body{
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    border: 2px solid black;
+
 }
 ul{
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
+}
+
+
+.content{
+    border: 2px solid black;
+}
+
+.footer{
+    border: 2px solid black;
+
 }
