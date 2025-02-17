@@ -43,10 +43,9 @@ ul{
     color: white;
     justify-content: center;
     gap: 40px;
+    padding: 150px 150px;
 }
 .section-one div{
-    width: 400px;
-    border: 2px solid white;
 }
 
 .section-two{
@@ -61,3 +60,21 @@ ul{
 }
 
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    padding: 5px 30px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
