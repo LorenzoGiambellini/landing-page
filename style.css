@@ -5,7 +5,6 @@ body{
     padding: 0;
     justify-content: space-between;
     min-height: 100vh;
-
 }
 
 .header {
@@ -39,8 +38,16 @@ ul{
 .section-one{
     flex-grow: 1;
     background-color: #1F2937;
-
+    display: flex;
+    color: white;
+    font-family: 'Roboto' sans-serif;
 }
+
+.one_left, .one_right{
+    border: 2px solid black;
+    width: 400px;
+}
+
 .section-two{
     flex-grow: 1;
 }
