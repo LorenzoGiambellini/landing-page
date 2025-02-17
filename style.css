@@ -5,6 +5,7 @@ body{
     padding: 0;
     justify-content: space-between;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -40,12 +41,12 @@ ul{
     background-color: #1F2937;
     display: flex;
     color: white;
-    font-family: 'Roboto' sans-serif;
+    justify-content: center;
+    gap: 40px;
 }
-
-.one_left, .one_right{
-    border: 2px solid black;
+.section-one div{
     width: 400px;
+    border: 2px solid white;
 }
 
 .section-two{
@@ -58,3 +59,5 @@ ul{
 .section-four{
     flex-grow: 1;
 }
+
+
