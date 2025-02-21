@@ -61,7 +61,27 @@ ul{
 }
 .section-two{
     flex-grow: 1;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
+
+.profile-container {
+    display: flex;
+    gap: 30px;
+}
+
+.icon {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+.section-two p {
+    color: gray;
+    width: 160px;
+    text-align: center;
+}
+
 .section-three{
     flex-grow: 1;
     background-color: #e5e7eb;
@@ -89,4 +109,13 @@ button {
     border-radius: 8px;
     font-weight: bold;
     font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 40px;
+
 }
