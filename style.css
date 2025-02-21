@@ -43,6 +43,7 @@ ul{
     font-weight: bold;
 }
 
+/*SECTION ONE*/
 .section-one{
     flex-grow: 1;
     background-color: #1F2937;
@@ -59,6 +60,8 @@ ul{
     width: 100%;
     border-radius: 15px;
 }
+
+/*SECTION TWO*/
 .section-two{
     flex-grow: 1;
     margin: 0 auto;
@@ -82,6 +85,7 @@ ul{
     text-align: center;
 }
 
+/*SECTION THREE*/
 .section-three{
     flex-grow: 1;
     background-color: #e5e7eb;
@@ -101,11 +105,39 @@ ul{
     text-align: right;
 }
 
+/*SECTION FOUR*/
 .section-four{
     flex-grow: 1;
 }
 
+.action {
+    display: flex;
+    margin: 100px 300px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: #E5E7EB;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
 
+.action button{
+    border: 3px solid #E5E7EB;
+    font-size: 20px;
+}
+.right{
+    align-self: center;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+.action p {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+/*general*/
 h1 {
     margin: 0;
     font-size: 48px;
@@ -115,6 +147,7 @@ h1 {
 p, .links {
     font-size: 18px;
     color: #E5E7EB;
+
 }
 
 button {
