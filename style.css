@@ -137,6 +137,12 @@ h3 {
     margin-top: 10px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #E5E7EB;
+}
 /*general*/
 h1 {
     margin: 0;
@@ -151,12 +157,13 @@ p, .links {
 }
 
 button {
-    padding: 5px 30px;
+    padding: 10px 30px;
     background-color: #3882f6;
     color: white;
     border-radius: 8px;
     font-weight: bold;
     font-size: 18px;
+    border: 0;
 }
 
 h2 {
